@@ -24,10 +24,17 @@ export function Details() {
           <Section title="links úteis">
             <Links>
               <li>
-                <a href="#">oioio</a>{" "}
-              </li>{" "}
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/allyson-xavier-a574a0189/"
+                >
+                  LinkedIn
+                </a>
+              </li>
               <li>
-                <a href="#">oioio</a>{" "}
+                <a href="https://github.com/allysonxavier" target="_blank">
+                  Github
+                </a>
               </li>
             </Links>
           </Section>

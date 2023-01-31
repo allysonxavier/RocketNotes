@@ -33,14 +33,15 @@ export function Home() {
             data={{
               title: "React",
               tags: [
-                { id: "1", name: "react" },
-                { id: "2", name: "Rocket" },
+                { id: "1", name: "React" },
+                { id: "2", name: "Node.js" },
+                { id: "3", name: "Rocket" },
               ],
             }}
           ></Note>
         </Section>
       </Content>
-      <NewNote>
+      <NewNote to="/new">
         <FiPlus />
         Criar Nota
       </NewNote>

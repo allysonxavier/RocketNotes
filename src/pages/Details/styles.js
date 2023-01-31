@@ -36,10 +36,12 @@ export const Content = styled.div`
     font-weight: 500;
     font-size: 36px;
     padding-top: 64px;
+    color: ${({ theme }) => theme.COLORS.WHITE};
   }
   > p {
     font-size: 16px;
     margin-top: 16px;
     text-align: justify;
+    color: ${({ theme }) => theme.COLORS.WHITE};
   }
 `;
