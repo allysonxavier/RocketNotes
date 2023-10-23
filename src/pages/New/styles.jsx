@@ -34,7 +34,7 @@ export const Form = styled.form`
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
-    a {
+    button {
       font-size: 24px;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
